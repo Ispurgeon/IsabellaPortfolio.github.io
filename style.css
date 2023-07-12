@@ -1,0 +1,94 @@
+body {
+    background-color: lavenderblush;
+  }
+  
+  p {
+    color: rgb(207, 127, 203);
+  }
+
+  h2 {
+    color: rgb(204, 128, 200);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e69ee9;
+    border-radius: 5px;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: hsl(319, 100%, 91%);
+  }
+  
+
+  .vertical-about {
+      border-left: 6px solid rgb(255, 210, 251);
+      height: 100px;
+      position: left;
+      left: 30%;
+  }
+
+  .vertical-work {
+    border-left: 6px solid rgb(255, 210, 251);
+    height: 1100px;
+    position: left;
+    left: 30%;
+}
+
+.footer {
+  float: center;
+  box-sizing: 10px 100px;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 183, 237);
+  width: 100%;
+  background-color: #ffc2fa;
+  padding: 5px
+}
+
+.email {
+  float: right;
+  color:rgb(204, 128, 200)
+}
+.work-in-progress {
+  flex: 4;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  border-radius: 15%;
+  position: relative;
+  
+}
+
+.work-in-progress a{
+  border: 5px solid hsl(319, 100%, 91%);
+  border-radius: 15px;
+  
+}
+
+.text-block {
+  position: absolute;
+  bottom: 161px;
+  background-color: rgb(255, 220, 244);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  
+}
